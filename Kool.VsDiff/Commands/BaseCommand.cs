@@ -27,7 +27,7 @@ namespace Kool.VsDiff.Commands
             }
             catch (Exception ex)
             {
-                MessageBox.Error(VSPackage.ErrorMessageTitle, ex.Message);
+                Debug.Fail(ex.Message);
             }
         }
 
